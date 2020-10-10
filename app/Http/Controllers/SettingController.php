@@ -19,13 +19,13 @@ class SettingController extends Controller
     public function index()
     {
         $auth = Auth::user();
-        return view('setting\index', ['auth' => $auth]);
+        return view('setting.index', ['auth' => $auth]);
     }
 
     public function showChangeNameForm()
     {
         $auth = Auth::user();
-        return view('setting\name', ['auth' => $auth]);
+        return view('setting.name', ['auth' => $auth]);
     }
 
     public function changeName(ChangeNameRequest $request)
@@ -43,7 +43,7 @@ class SettingController extends Controller
     public function showChangeEmailForm()
     {
         $auth = Auth::user();
-        return view('setting\email', ['auth' => $auth]);
+        return view('setting.email', ['auth' => $auth]);
     }
 
     public function changeEmail(ChangeEmailRequest $request)
@@ -68,7 +68,7 @@ class SettingController extends Controller
     public function showChangeUsernameForm()
     {
         $auth = Auth::user();
-        return view('setting\username', ['auth' => $auth]);
+        return view('setting.username', ['auth' => $auth]);
     }
 
     public function changeUsername(ChangeUsernameRequest $request)
