@@ -16,7 +16,7 @@ class DeactiveController extends Controller
 
     public function showDeactiveForm()
     {
-        return view('auth\deactive');
+        return view('auth.deactive');
     }
 
     public function deactive()

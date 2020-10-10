@@ -16,7 +16,7 @@ class ChangePasswordController extends Controller
     }
     public function showChangePasswordForm()
     {
-        return view('admin\auth\passwords\change');
+        return view('admin.auth.passwords.change');
     }
 
     public function changePassword(ChangePasswordRequest $request)
