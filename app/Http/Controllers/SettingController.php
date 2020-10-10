@@ -19,7 +19,7 @@ class SettingController extends Controller
     public function index()
     {
         $auth = Auth::user();
-        return view('setting', ['auth' => $auth]);
+        return view('setting\index', ['auth' => $auth]);
     }
 
     public function showChangeNameForm()

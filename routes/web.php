@@ -37,7 +37,7 @@ Route::get('/setting/password', 'Auth\ChangePasswordController@showChangePasswor
 Route::post('/setting/password', 'Auth\ChangePasswordController@ChangePassword')->name('password.change');
 Route::get('/setting/deactive', 'Auth\DeactiveController@showDeactiveForm')->name('deactive.form');
 Route::post('/setting/deacrive', 'Auth\DeactiveController@deactive')->name('deactive');
-Route::get('/setting', 'SettingController@index')->name('setting');
+Route::get('/setting/index', 'SettingController@index')->name('setting');
 Route::get('/setting/name', 'SettingController@showChangeNameForm')->name('name.form');
 Route::post('/setting/name', 'SettingController@changeName')->name('name.change');
 Route::get('/setting/email', 'SettingController@showChangeEmailForm')->name('email.form');
