@@ -36,7 +36,7 @@ class Contactmail extends Mailable
     public function build()
     {
         return $this
-        ->from('9e4815a21a-19cbd2@inbox.mailtrap.io')
+        ->from('aki925n@gmail.com')
         ->subject('お問い合わせ')
         ->view('atlantis.contact.mail')
         ->with([
