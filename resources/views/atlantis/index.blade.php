@@ -100,14 +100,14 @@
               </div>
             </figure>
             <div class="text">
-              <h3><a href="#">Executive Room</a></h3>
+              <h3><a href="{{ route('reservation') }}">Executive Room</a></h3>
               <div class="post-meta">
                 <ul>
                   <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252件 クチコミ</li>
                 </ul>
               </div>
               <p>客室は、それぞれに贅を尽くし普段体験出来ないような贅沢を</p>
-              <p><a href="#" class="btn btn-primary">予約する</a></p>
+              <p><a href="{{ route('reservation') }}" class="btn btn-primary">予約する</a></p>
             </div>
           </div>
         </div>
@@ -122,14 +122,14 @@
               </div>
             </figure>
             <div class="text">
-              <h3><a href="#">Deluxe Room</a></h3>
+              <h3><a href="{{ route('reservation') }}">Deluxe Room</a></h3>
               <div class="post-meta">
                 <ul>
                   <li><span class="review-rate">4.7</span> <i class="icon-star"></i> 252件 クチコミ</li>
                 </ul>
               </div>
               <p>ご夫婦やカップルの方に大変人気です。</p>
-              <p><a href="#" class="btn btn-primary">予約する</a></p>
+              <p><a href="{{ route('reservation') }}" class="btn btn-primary">予約する</a></p>
             </div>
           </div>
         </div>
@@ -161,7 +161,7 @@
                           <span class="review-rate">4.7</span> <i class="icon-star"></i> 252件 クチコミ
                       </div>
                       <div class="col-4">
-                        <p><a href="#" class="btn btn-primary">予約する</a></p>
+                        <p><a href="{{ route('reservation') }}" class="btn btn-primary">予約する</a></p>
                       </div>
                     </div>
                   </div>
@@ -178,7 +178,7 @@
                           <span class="review-rate">4.7</span> <i class="icon-star"></i> 252件 クチコミ
                       </div>
                       <div class="col-4">
-                        <p><a href="#" class="btn btn-primary">予約する</a></p>
+                        <p><a href="{{ route('reservation') }}" class="btn btn-primary">予約する</a></p>
                       </div>
                     </div>
                   </div>
@@ -195,7 +195,7 @@
                           <span class="review-rate">4.7</span> <i class="icon-star"></i> 252件 クチコミ
                       </div>
                       <div class="col-4">
-                        <p><a href="#" class="btn btn-primary">予約する</a></p>
+                        <p><a href="{{ route('reservation') }}" class="btn btn-primary">予約する</a></p>
                       </div>
                     </div>
                   </div>
@@ -212,7 +212,7 @@
                           <span class="review-rate">4.7</span> <i class="icon-star"></i> 252件 クチコミ
                       </div>
                       <div class="col-4">
-                        <p><a href="#" class="btn btn-primary">予約する</a></p>
+                        <p><a href="{{ route('reservation') }}" class="btn btn-primary">予約する</a></p>
                       </div>
                     </div>
                   </div>
